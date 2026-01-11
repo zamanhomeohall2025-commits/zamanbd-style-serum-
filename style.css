@@ -1,0 +1,17 @@
+# Ignore everything in wp-content except custom stuff
+uploads/
+cache/
+upgrade/
+backup-db/
+advanced-cache.php
+wp-cache-config.php
+languages/
+
+# Plugins - ignore all except yours
+plugins/*
+!plugins/beauty-affiliate-tool/zamanbd-amazon-us#
+
+# Themes - ignore all except yours
+themes/*
+!themes/zamanbd-style-serum/child# তোমার থিমের নাম দাও
+!themes/zamanbd-style-serum-child/
